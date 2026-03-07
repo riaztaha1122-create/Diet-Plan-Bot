@@ -38,7 +38,7 @@ setChat(newChat)
 setMessage("")
 setTyping(true)
 
-const response = await fetch("http://localhost:5000/chat",{
+const response = await fetch("https://diet-plan-bot.vercel.app/chat",{
 method:"POST",
 headers:{
 "Content-Type":"application/json"
